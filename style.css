@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(134, 182, 230);
+}
+.box1 {
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    height: 580px;
+    width: 770px;
+    border-radius: 5px;
+  }
+  .box2 {
+    display: inline-block;
+    border: 1px solid rgb(14, 13, 13);
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    height: 580px;
+    width: 480px;
+    border-radius: 5px;
+  }
+  .tab{
+      background-color: rgb(206, 215, 224);
+      height: 470px;
+      width: 770px;
+      border-radius: 10px;
+  }
+  
+  .login{
+      background-color: rgb(206, 215, 224);
+      height: 370px;
+      width: 480px;
+      border-radius: 10px;
+      
+  }
+  .set{
+    margin: 20px;
+   
+  }
+  
+  .text{
+    font-size: 15px;
+    width: 260px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    float: right;
+   
+  }
+  .cbtn{
+    margin-right: 10px;
+    height: 40px;
+   width: 80px;
+   border-radius: 20px;
+   border: none;
+   box-shadow: 2px 2px 3px 2px #888888;
+   float: right;
+    cursor: pointer;
+  }
+
+  .cbtn:hover {
+    background-color:rgb(223, 30, 30);
+    color: white;
+  }
+.sbtn{
+    
+   height: 40px;
+   width: 80px;
+   border-radius: 20px;
+   border: none;
+    background-color: rgb(6, 111, 216);
+    color: white;
+    box-shadow: 2px 2px 3px 2px #888888;
+    float: right;
+    cursor: pointer;
+}
+.sbtn:hover {
+    background-color:rgb(49, 173, 57);
+    color: white;
+  }
+label{
+    font-size: 20px;
+}
+input{
+    margin-left: 30px;   
+}
+
+th{
+    background-color: rgb(0, 0, 0);
+    padding:5px;
+   padding-left: 35px;
+   padding-right: 35px;
+   color: white;
+   border-radius: 10px;
+}
+td{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.search{
+    margin: 10px;
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.button{
+    height: 40px;
+    width: 120px;
+    color: rgb(19, 133, 226);
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 2px 2px 3px 2px #888888;
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.button:hover {
+    background-color:rgb(49, 173, 57);
+    color: white;
+  }
+h2{
+   padding: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+}

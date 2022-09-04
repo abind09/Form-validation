@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    
+ 
+</head>
+<body>
+        <div class='box1'> 
+            <h1>Users</h1>
+            <h3>All Users</h3>
+            <div class="tab">
+                <input class="search" type="text" placeholder="🔍 Search ">  
+                 <input class="button" type="button" onclick="Add();" value="+ Add User">
+                <table id="display">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Date of Birth</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Status</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class='box2'> 
+                <div class="login">
+                    <div class="set">
+                       
+                          <h2>Add User</h2>
+                            <label for="name">Name :-  </label>
+                            <input  class="text" type="text"   id="name" placeholder="Enter Your Name">
+                        <br><br><br>
+                            <label for="dob">Date of Birth :- </label>
+                            <input class="text" type="date" id="dob" >
+                        <br><br><br>
+                            <label for="email">Email Id :- </label>
+                            <input class="text" type="email" id="email" placeholder="Enter Your Email" required>
+                        <br><br><br>
+                            <label for="number">Phone Number :- </label>
+                            <input  class="text" type="number"  id="number" placeholder="Enter Your Phone Number"  >
+                        <br><br>
+                        <br><br>
+                            <button class="sbtn" id="submit">Save</button>
+                            <button class="cbtn" type="button" onclick="Clear();" >Clear</button>
+                    
+
+                 </div>
+                </div>
+                <div>
+                    <h3>Validation</h3>
+                    <p>1. Name should be in 5 character</p> 
+                    <p>1. DOB Before 20 Year</p> 
+                    <p>3. Email ID would be always google domain</p>
+                    <p>4. Phone number must be 10 digits</p>
+                </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
